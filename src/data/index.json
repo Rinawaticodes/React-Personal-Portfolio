@@ -4,74 +4,93 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "skill": [
+        {
+          "description": "HTML",
+          "image": "../../public/img/html-5.png"
+        },
+        {
+          "description": "CSS & SASS",
+          "image": "../../public/img/sass.png"
+        },
+        {
+          "description": "Javascript",
+          "image": "../../public/img/js.png"
+        },
+        {
+          "description": "React Js",
+          "image": "../../public/img/react.png"
+        },
+        {
+          "description": "Figma",
+          "image": "../../public/img/figma.png"
+        },
+        {
+          "description": "Responsive Design",
+          "image": "../../public/img/responsive-design.png"
+        }
+      ]
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "skill": [
+        {
+          "description": "Node Js",
+          "image": "../../public/img/node.png"
+        },
+        {
+          "description": "Express",
+          "image": "../../public/img/express.png"
+        },
+        {
+          "description": "MySQL",
+          "image": "../../public/img/mysql.png"
+        }
+      ]
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
-    },
-    {
-      "id": "4",
       "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "title": "Tools",
+      "skill": [
+        {
+          "description": "Github",
+          "image": "../../public/img/github.png"
+        },
+        {
+          "description": "Git",
+          "image": "../../public/img/git.png"
+        },
+        {
+          "description": "VsCode",
+          "image": "../../public/img/vscode.png"
+        }
+      ]
     }
   ],
   "portfolio": [
     {
       "id": "1",
-      "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "../../public/img/ecotourisme.png",
+      "title": "App Audit Ecotourism",
+      "description": "This application helps evaluate ecotourism practices in the Marne - Reims region",
+      "link": "https://github.com/Rinawaticodes/2023-02-JS-Reims-project-3-adt"
     },
     {
       "id": "2",
-      "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "src": "../../public/img/wildbeer.png",
+      "title": "WildBeer",
+      "description": "Beer card game where players draw and play cards to follow specific rules or complete challenges",
+      "link": "https://github.com/Rinawaticodes/2023-02-JS-Reims-project-2-wild-beer"
     },
     {
       "id": "3",
-      "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
-    }
-  ],
-  "testimonial": [
-    {
-      "id": "1",
-      "count": "5",
-      "src": "./img/avatar-image.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Dianne Russel",
-      "author_designation": "Starbucks"
-    },
-    {
-      "id": "2",
-      "count": "5",
-      "src": "./img/avatar-image-1.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kristin Watson",
-      "author_designation": "Louis Vuitton"
-    },
-    {
-      "id": "3",
-      "count": "5",
-      "src": "./img/avatar-image-2.png",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "author_name": "Kathryn Murphy",
-      "author_designation": "McDonald's"
+      "src": "../../public/img/wildkedin.png",
+      "title": "Wildkedin",
+      "description": "This application is designed to promote the talented of Wild Code School Reims and connect them with the professionals.",
+      "link": "https://github.com/Rinawaticodes/Project1-Wildkedin"
     }
   ]
 }

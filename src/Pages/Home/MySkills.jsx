@@ -15,7 +15,22 @@ export default function MySkills() {
             </div>
             <div className="skills--section--card--content">
               <h3 className="skills--section--title">{items.title}</h3>
-              <p className="skills--section--description">{items.description}</p>
+              <div className="skills--section--description">
+                {items.skill?.map((subSkill) => (
+                  <div
+                    key={subSkill.description}
+                    className="skills--section--subskill"
+                  >
+                    <img
+                      src={subSkill.image}
+                      alt={subSkill.description}
+                      className="skills--section--subskill--img"
+                    />
+                    <p className="skills--section--subskill--description">{subSkill.description}</p>
+                  </div>
+                ))}
+              </div>
+              {/* <p className="skills--section--description">{items.description}</p> */}
             </div>
           </div>
         ))}
