@@ -73,21 +73,21 @@
   "portfolio": [
     {
       "id": "1",
-      "src": "../../public/img/ecotourisme.png",
+      "src": "https://drive.google.com/drive/u/0/folders/1MqvWOZ2lTzwQUGlLeHNflgmgNtyV2hCK",
       "title": "App Audit Ecotourism",
       "description": "This application helps evaluate ecotourism practices in the Marne - Reims region",
       "link": "https://github.com/Rinawaticodes/2023-02-JS-Reims-project-3-adt"
     },
     {
       "id": "2",
-      "src": "../../public/img/wildbeer.png",
+      "src": "https://drive.google.com/drive/u/0/folders/1MqvWOZ2lTzwQUGlLeHNflgmgNtyV2hCK",
       "title": "WildBeer",
       "description": "Beer card game where players draw and play cards to follow specific rules or complete challenges",
       "link": "https://github.com/Rinawaticodes/2023-02-JS-Reims-project-2-wild-beer"
     },
     {
       "id": "3",
-      "src": "../../public/img/wildkedin.png",
+      "src": "https://drive.google.com/drive/u/0/folders/1MqvWOZ2lTzwQUGlLeHNflgmgNtyV2hCK",
       "title": "Wildkedin",
       "description": "This application is designed to promote the talented of Wild Code School Reims and connect them with the professionals.",
       "link": "https://github.com/Rinawaticodes/Project1-Wildkedin"
