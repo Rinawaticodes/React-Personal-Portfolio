@@ -1,4 +1,7 @@
-import data from "../../data/index.json";
+import ProjectCard from "../common/ProjectCard";
+import ecotourisme from "../../../public/img/ecotourisme.png";
+import wildbeer from "../../../public/img/wildbeer.png";
+import wildkedin from "../../../public/img/wildkedin.png";
 
 export default function MyPortfolio() {
   return (
@@ -34,44 +37,26 @@ export default function MyPortfolio() {
         </div>
       </div>
       <div className="portfolio--section--container">
-        {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
-            <div className="portfolio--section--img">
-              <img src={item.src} alt={item.title} />
-            </div>
-            <div className="portfolio--section--card--content">
-              <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
-              </div>
-              <p className="text-sm portfolio--link">
-                <a
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="portfolio--link--description"
-                >
-                  View On GitHub{" "}
-                </a>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 20 19"
-                  fill="none"
-                >
-                  <path
-                    d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                    stroke="currentColor"
-                    strokeWidth="2.66667"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </p>
-            </div>
-          </div>
-        ))}
+        <ProjectCard
+          src={ecotourisme}
+          link="https://github.com/Rinawaticodes/2023-02-JS-Reims-project-3-adt"
+          h3="App Audit Ecotourism"
+          description="This application helps evaluate ecotourism practices in the Marne - Reims region"
+        />
+
+        <ProjectCard
+          src={wildbeer}
+          link="https://github.com/Rinawaticodes/2023-02-JS-Reims-project-3-adt"
+          h3="WildBeer"
+          description="Beer card game where players draw and play cards to follow specific rules or complete challenges"
+        />
+
+        <ProjectCard
+          src={wildkedin}
+          link="https://github.com/Rinawaticodes/2023-02-JS-Reims-project-3-adt"
+          h3="Wildkedin"
+          description="This application is designed to promote the talented student and connect them with the professionals."
+        />
       </div>
     </section>
   );

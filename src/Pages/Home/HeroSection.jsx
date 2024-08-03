@@ -17,7 +17,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="btn btn-primary"
           >
-            Download CV
+            Resume
           </a>
         </div>
       </div>
